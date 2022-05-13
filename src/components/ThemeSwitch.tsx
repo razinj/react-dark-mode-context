@@ -6,6 +6,7 @@ const ThemeSwitch = () => {
 
   return (
     <button
+      data-testid='switch-theme-btn'
       style={{
         padding: 5,
         borderRadius: 5,

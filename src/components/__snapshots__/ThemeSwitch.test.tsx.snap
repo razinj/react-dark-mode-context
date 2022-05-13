@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThemeSwitch should match snapshot 1`] = `
+<div>
+  <button
+    data-testid="switch-theme-btn"
+    style="padding: 5px; border-radius: 5px; color: white; background: black;"
+  >
+    Go 
+    DARK MODE
+  </button>
+</div>
+`;
