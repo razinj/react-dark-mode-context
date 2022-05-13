@@ -1,5 +1,7 @@
 # react-dark-mode-context
 
+A simple React project that implements dark mode using TailwindCSS and React's Context API to toggle theme, persistence capable.
+
 ## What's inside
 
 - [React v18](https://https://reactjs.org)
