@@ -1,16 +1,12 @@
 import React from 'react'
-import logo from './logo.svg'
-import './App.css'
+import ThemeContextWrapper from './context/ThemeContextWrapper'
+import MainComponent from './components/MainComponent'
 
-const App = () => {
+const App: React.FC = () => {
   return (
-    <div className='App'>
-      <header className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
-        <p>Hello World!</p>
-        <p>React + TailwindCSS Dark Mode App</p>
-      </header>
-    </div>
+    <ThemeContextWrapper>
+      <MainComponent />
+    </ThemeContextWrapper>
   )
 }
 
