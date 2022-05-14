@@ -1,8 +1,8 @@
-import React from 'react'
+import { FC } from 'react'
 import ThemeContextWrapper from './context/ThemeContextWrapper'
 import MainComponent from './components/MainComponent'
 
-const App: React.FC = () => {
+const App: FC = () => {
   return (
     <ThemeContextWrapper>
       <MainComponent />
