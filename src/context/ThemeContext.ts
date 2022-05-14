@@ -2,7 +2,7 @@ import { createContext } from 'react'
 
 const defaultValue = {
   currentTheme: 'light',
-  changeCurrentTheme: (theme: 'light' | 'dark') => {},
+  changeCurrentTheme: (newTheme: 'light' | 'dark') => {},
 }
 
 const ThemeContext = createContext(defaultValue)
