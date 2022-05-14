@@ -2,8 +2,6 @@
 
 A simple React project that implements dark mode using TailwindCSS and React's Context API to toggle theme, persistence capable.
 
-Project was created with [Create React App](https://github.com/facebook/create-react-app).
-
 Live demo: https://razinj-react-dark-mode-context.netlify.app
 
 This project is part of a detailed blog [post](https://razinj.dev/how-to-add-dark-mode-in-react-context/).
