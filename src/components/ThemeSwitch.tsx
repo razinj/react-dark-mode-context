@@ -1,8 +1,8 @@
-import React from 'react'
+import { FC, useContext } from 'react'
 import ThemeContext from '../context/ThemeContext'
 
-const ThemeSwitch = () => {
-  const { currentTheme, changeCurrentTheme } = React.useContext(ThemeContext)
+const ThemeSwitch: FC = () => {
+  const { currentTheme, changeCurrentTheme } = useContext(ThemeContext)
 
   return (
     <button
