@@ -2,19 +2,14 @@ import { render } from '@testing-library/react'
 import ThemeContextWrapper from './ThemeContextWrapper'
 
 describe('ThemeContextWrapper', () => {
-  let componentContainer: HTMLElement
-
-  beforeEach(() => {
+  it('should match snapshot', () => {
     const { container } = render(
       <ThemeContextWrapper>
         <p>Hello World!</p>
       </ThemeContextWrapper>
     )
-    componentContainer = container
-  })
 
-  it('should match snapshot', () => {
-    expect(componentContainer).toMatchSnapshot()
+    expect(container).toMatchSnapshot()
   })
 
   it('should render and call switching theme method correctly', () => {
