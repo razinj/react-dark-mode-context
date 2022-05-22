@@ -1,4 +1,5 @@
-import { useState, useEffect, FC, ReactNode } from 'react'
+import type { FC } from 'react'
+import { useState, useEffect, ReactNode } from 'react'
 import ThemeContext from './ThemeContext'
 
 const ThemeContextWrapper: FC<{ children: ReactNode }> = ({ children }) => {

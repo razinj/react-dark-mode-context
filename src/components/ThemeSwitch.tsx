@@ -1,4 +1,5 @@
-import { FC, useContext } from 'react'
+import type { FC } from 'react'
+import { useContext } from 'react'
 import ThemeContext from '../context/ThemeContext'
 
 const ThemeSwitch: FC = () => {
@@ -15,7 +16,7 @@ const ThemeSwitch: FC = () => {
       }}
       onClick={() => changeCurrentTheme(currentTheme === 'light' ? 'dark' : 'light')}
     >
-      Go {currentTheme === 'light' ? 'DARK MODE' : 'LIGHT MODE'}
+      Go {currentTheme === 'light' ? 'DARK' : 'LIGHT'} MODE
     </button>
   )
 }
