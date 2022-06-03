@@ -1,9 +1,13 @@
-import type { FC } from 'react'
-import { useState, useEffect, ReactNode } from 'react'
+import { FC, useState, useEffect, ReactNode } from 'react'
 import ThemeContext from './ThemeContext'
 
-const ThemeContextWrapper: FC<{ children: ReactNode }> = ({ children }) => {
-  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light')
+type Props = {
+  children: ReactNode
+}
+
+const ThemeContextWrapper: FC<Props> = ({ children }) => {
+  const persistedTheme: string | null = localStorage.getItem('theme')
+  const [theme, setTheme] = useState(persistedTheme || 'light')
 
   const changeCurrentTheme = (newTheme: 'light' | 'dark') => {
     setTheme(newTheme)
