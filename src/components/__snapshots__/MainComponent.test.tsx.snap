@@ -22,10 +22,12 @@ exports[`MainComponent should match snapshot 1`] = `
       class="mt-2"
     >
       <button
+        data-testid="switch-theme-btn"
         style="padding: 5px; border-radius: 5px; color: white; background: black;"
       >
         Go 
-        DARK MODE
+        DARK
+         MODE
       </button>
     </div>
   </div>
