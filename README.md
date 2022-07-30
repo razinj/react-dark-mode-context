@@ -6,7 +6,7 @@ A simple React project that implements dark mode using TailwindCSS and Context A
 
 Live [demo](https://razinj-react-dark-mode-context.netlify.app).
 
-This project is part of a dedicated detailed blog [post](https://razinj.dev/how-to-add-dark-mode-in-react-context/).
+This project is part of a dedicated detailed blog [post](https://short.razinj.com/qiKy3v).
 
 ## What's inside
 
